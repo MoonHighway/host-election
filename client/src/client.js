@@ -6,7 +6,7 @@ const cache = new InMemoryCache();
 const httpLink = new HttpLink({ uri: process.env.REACT_APP_GRAPHQL_URI });
 
 const wsLink = new WebSocketLink({
-  uri: `ws://localhost:4000/graphql`,
+  uri: process.env.REACT_APP_SUBSCRIPTION_ENDPOINT,
   options: {
     reconnect: true,
     lazy: true
