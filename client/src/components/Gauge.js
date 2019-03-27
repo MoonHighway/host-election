@@ -159,7 +159,6 @@ export default class Gauge extends Component {
           textAnchor="middle"
           style={{
             ...valueLabelStyle,
-            fill: "#0000FF",
             fontFamily: "verdana",
             fontWeight: "bold",
             fill: this.props.fill || "#EEE",
