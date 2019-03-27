@@ -4,16 +4,19 @@ html {
   overflow: hidden;
 }
 
-body {
-  background-color: rgb(37, 37, 37);
-}
-div.root {
+div.fun {
   height: 100%;
   width: 100%;
+  background-color: rgb(37, 37, 37);
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+
+div.root {
+  height: 100%;
+  width: 100%;
 }
 
 img.skull {

@@ -32,7 +32,7 @@ export default function Hook() {
   };
 
   return (
-    <>
+    <div className="fun">
       {snowingAnimations.map(([left, animationDelay], i) => (
         <img
           key={i}
@@ -44,6 +44,6 @@ export default function Hook() {
       ))}
 
       <img className="hook" src={hook} alt="dancing hook" />
-    </>
+    </div>
   );
 }
