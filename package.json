@@ -4,6 +4,7 @@
   "description": "Empowering the people of React-a-thon to choose their own host. 🇺🇸👨‍👨‍👧‍👦👨‍👩‍👦‍👦🇺🇸",
   "main": "./api/index.js",
   "scripts": {
+    "ping": "node ./simulator/ping",
     "simulator": "node ./simulator",
     "install": "cd ./api; npm i; cd ../client; npm i; cd ..;",
     "postinstall": "cd ./client; npm run build; cd ..;",
